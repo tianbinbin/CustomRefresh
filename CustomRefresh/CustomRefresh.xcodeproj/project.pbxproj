@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		372C39F51EC98C490016ED85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C39F41EC98C490016ED85 /* AppDelegate.swift */; };
-		372C39F71EC98C490016ED85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C39F61EC98C490016ED85 /* ViewController.swift */; };
 		372C39FA1EC98C490016ED85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372C39F81EC98C490016ED85 /* Main.storyboard */; };
 		372C39FC1EC98C490016ED85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372C39FB1EC98C490016ED85 /* Assets.xcassets */; };
 		372C39FF1EC98C490016ED85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372C39FD1EC98C490016ED85 /* LaunchScreen.storyboard */; };
+		372C3A071EC98E9B0016ED85 /* RefreshTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C3A061EC98E9B0016ED85 /* RefreshTableViewController.swift */; };
+		372C3A091EC9902B0016ED85 /* refreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C3A081EC9902B0016ED85 /* refreshView.swift */; };
+		372C3A0B1EC994FB0016ED85 /* RefreshItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C3A0A1EC994FB0016ED85 /* RefreshItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		372C39F11EC98C490016ED85 /* CustomRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		372C39F41EC98C490016ED85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		372C39F61EC98C490016ED85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		372C39F91EC98C490016ED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		372C39FB1EC98C490016ED85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372C39FE1EC98C490016ED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372C3A001EC98C490016ED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372C3A061EC98E9B0016ED85 /* RefreshTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshTableViewController.swift; sourceTree = "<group>"; };
+		372C3A081EC9902B0016ED85 /* refreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = refreshView.swift; sourceTree = "<group>"; };
+		372C3A0A1EC994FB0016ED85 /* RefreshItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				372C39F41EC98C490016ED85 /* AppDelegate.swift */,
-				372C39F61EC98C490016ED85 /* ViewController.swift */,
+				372C3A061EC98E9B0016ED85 /* RefreshTableViewController.swift */,
+				372C3A081EC9902B0016ED85 /* refreshView.swift */,
+				372C3A0A1EC994FB0016ED85 /* RefreshItem.swift */,
 				372C39F81EC98C490016ED85 /* Main.storyboard */,
 				372C39FB1EC98C490016ED85 /* Assets.xcassets */,
 				372C39FD1EC98C490016ED85 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372C39F71EC98C490016ED85 /* ViewController.swift in Sources */,
+				372C3A091EC9902B0016ED85 /* refreshView.swift in Sources */,
+				372C3A071EC98E9B0016ED85 /* RefreshTableViewController.swift in Sources */,
+				372C3A0B1EC994FB0016ED85 /* RefreshItem.swift in Sources */,
 				372C39F51EC98C490016ED85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
